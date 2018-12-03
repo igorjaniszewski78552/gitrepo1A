@@ -1,13 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+#
+#  funkcje.py
 
+a, b = 4, 2
+
+def odejmij():
+    return a - b
 
 def main(args):
-    a = input('Podaj bok a:')
-    b = input('Podaj bok b:')
-
-    obwod = 2 * (int(a) + int(b))
-    print(obwod)
+    print("Hello")
+    c = odejmij()
+    print(c**2)
     return 0
 
 if __name__ == '__main__':
