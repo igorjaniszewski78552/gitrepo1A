@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 #  struktury.py
+#  
 
 def kolejka():
     from collections import deque
@@ -9,18 +10,19 @@ def kolejka():
     
     def push(el):
         kolejka.append(el)
-        
+
     def pop():
         if len(kolejka):
             return kolejka.popleft()
         else:
-            print("błąd kolejki")
+            print("Błąd kolejki!")
             return None
     push(5)
     push(4)
     print(pop())
     print(pop())
     print(pop())
+
 
 def stos():
     stos = []
@@ -32,18 +34,18 @@ def stos():
         if len(stos):
             return stos.pop()
         else:
-            print("błąd stosu!")
+            print("Błąd stosu!")
             return None
+
     push(5)
     push(4)
-    
     print(pop())
     print(pop())
     print(pop())
 
+    
 def main(args):
     kolejka()
-    stos()
     return 0
 
 if __name__ == '__main__':
