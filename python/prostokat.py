@@ -3,11 +3,11 @@
 
 
 def main(args):
-    a = input('Podaj bok a:')
-    b = input('Podaj bok b:')
+    a = input('Podaj bok a: ')
+    b = input('Podaj bok b: ')
 
     obwod = 2 * (int(a) + int(b))
-    print(obwod)
+    print('obwod:', obwod)
     return 0
 
 if __name__ == '__main__':
