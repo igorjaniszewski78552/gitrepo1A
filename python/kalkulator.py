@@ -9,26 +9,44 @@ def pobierz_liczbe(komunikat='pobierz liczbę: '):
     if a.isdigit():
         return int(a)
     return False
-   
-   
+
+
+
 def dziel(a, b):
     if b != 0:
         return a / b
     else:
         print('błąd dzielenia przez 0')
     return False
- 
- 
+
+
 def suma(a, b):
     return a + b
- 
- 
+    
+    
+def sinus(stopien):
+    if -1< stopien < 361:
+        return sin(stopien * pi / 180)
+    print('błędny zakres stopni')
+    return False
+
+
+def cosinus(stopien):
+    if -1< stopien < 361:
+        return cos(stopien * pi / 180)
+    print('błędny zakres stopni')
+    return False
+
+
 def różnica(a, b):
     return a - b
  
  
 def iloczyn(a, b):
     return a * b
+    
+    
+from math import sin, cos, pi
  
  
 def pokaz_liste():
@@ -95,9 +113,13 @@ def main(args):
         elif d == '!':
             pass
         elif d == 'sin':
-            pass
+            a = pobierz_liczbe('podaj kąt w stopniach: ')
+            if not isinstance(a, (bool)):
+                print('sin({}) = {}'.format(a, sinus(a)))
         elif d == 'cos':
-            pass
+            a = pobierz_liczbe('podaj kąt w stopniach: ')
+            if not isinstance(a, (bool)):
+                print('cos({}) = {}'.format(a, cosinus(a)))
        
        
        
