@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Wed, 22 May 2019 09:39:24 +0200</pubDate><title><![CDATA[O nas]]></title><url><![CDATA[o-nas]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[O nas]]></menu><menuOrder><![CDATA[3]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;h1&gt;Klasa 1A 2016&lt;/h1&gt;
+
+&lt;table border=&quot;1&quot; cellpadding=&quot;1&quot; cellspacing=&quot;1&quot; style=&quot;width:500px;&quot;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;th scope=&quot;row&quot;&gt;Profil&lt;/th&gt;
+			&lt;td&gt;matematyczno-fizyczny&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;th scope=&quot;row&quot;&gt;Wychowawca&lt;/th&gt;
+			&lt;td&gt;
+				&lt;p&gt;mgr Adam Słomka&lt;/p&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div style=&quot;page-break-after: always&quot;&gt;&lt;span style=&quot;display: none;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;p&gt;&amp;nbsp;
+	&lt;ol&gt;
+		&lt;li&gt;&amp;nbsp;Jakub Abakowski&lt;/li&gt;
+		&lt;li&gt;Roman Cackowski&lt;/li&gt;
+		&lt;li&gt;Ewa Furmańska&lt;/li&gt;
+	&lt;/ol&gt;
+&lt;/p&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author></item>

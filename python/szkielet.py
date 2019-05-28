@@ -8,8 +8,7 @@ def main(args):
     c = input('Podaj bok c:')
 
     if a + b > c:
-        if a + c > b:
-            pass
+        if a + c >b:,
 
     return 0
 
