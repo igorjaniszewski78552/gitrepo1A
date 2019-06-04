@@ -310,3 +310,37 @@
 [04-Jun-2019 16:09:34 Europe/Berlin] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/news_manager/inc/functions.php on line 332
 [04-Jun-2019 16:09:34 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
 [04-Jun-2019 16:09:34 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 16:11:25 Europe/Berlin] PHP Notice:  A non well formed numeric value encountered in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 1198
+[04-Jun-2019 16:11:38 Europe/Berlin] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ImageManipulation has a deprecated constructor in /home/kl1ag1/public_html/gs1a/admin/inc/imagemanipulation.php on line 104
+[04-Jun-2019 16:11:38 Europe/Berlin] PHP Notice:  A non well formed numeric value encountered in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 1198
+[04-Jun-2019 16:11:55 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 33
+[04-Jun-2019 16:11:55 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 33
+[04-Jun-2019 16:11:56 Europe/Berlin] PHP Notice:  A non well formed numeric value encountered in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 1198
+[04-Jun-2019 16:12:00 Europe/Berlin] PHP Notice:  A non well formed numeric value encountered in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 1198
+[04-Jun-2019 16:12:17 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 33
+[04-Jun-2019 16:12:17 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 33
+[04-Jun-2019 16:12:24 Europe/Berlin] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/news_manager/inc/functions.php on line 332
+[04-Jun-2019 16:12:24 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 16:12:24 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 16:12:26 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 33
+[04-Jun-2019 16:12:26 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 33
+[04-Jun-2019 16:15:44 Europe/Berlin] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/news_manager/inc/functions.php on line 332
+[04-Jun-2019 16:15:44 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 16:15:44 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 16:17:14 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 16:17:14 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 16:19:44 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 16:19:44 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 16:19:46 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 33
+[04-Jun-2019 16:19:46 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 33
+[04-Jun-2019 16:19:52 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 33
+[04-Jun-2019 16:19:52 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 33
+[04-Jun-2019 16:20:46 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 33
+[04-Jun-2019 16:20:46 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 33
+[04-Jun-2019 16:23:31 Europe/Berlin] PHP Notice:  A non well formed numeric value encountered in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 1198
+[04-Jun-2019 16:23:32 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 33
+[04-Jun-2019 16:23:32 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /home/kl1ag1/public_html/gs1a/theme/Klasa/header.inc.php on line 33
+[04-Jun-2019 16:23:46 Europe/Berlin] PHP Warning:  fopen(/home/kl1ag1/public_html/gs1a/theme/Klasa/style.css): failed to open stream: Permission denied in /home/kl1ag1/public_html/gs1a/admin/theme-edit.php on line 58
+[04-Jun-2019 16:29:05 Europe/Berlin] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/kl1ag1/public_html/gs1a/plugins/news_manager/inc/functions.php on line 332
+[04-Jun-2019 16:29:05 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
+[04-Jun-2019 16:29:05 Europe/Berlin] PHP Warning:  chmod(): Operation not permitted in /home/kl1ag1/public_html/gs1a/admin/inc/basic.php on line 322
