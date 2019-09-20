@@ -12,31 +12,43 @@
 
 using namespace std;
 
-int main(int argc, char **argv)
+int main()
 {
-	int a, b, c;
-	cout << "Podaj długość  boku : ";
+	int a, b, c, m;
+	cout << "Podaj dlugosc  boku : ";
 	cin >> a;
-	cout << "Podaj długość  boku : ";
+	cout << "Podaj dlugosc  boku : ";
 	cin >> b;
-	cout << "Podaj długość  boku : ";
+	cout << "Podaj dlugosc  boku : ";
 	cin >> c;
-	if (a + b < c) {
-	cout << "nie można zbudować trójkąta";
+	if (a + b <= c) {
+	cout << "nie mozna zbudowac trojkata";
 }
-	else if (a + c < b){
-	cout <<"nie można zbudować trójkąta";
+	else if (a + c <= b){
+	cout <<"nie mozna zbudowac trojkata";
 }
-	else if (b + c < b){
-	cout << "nie można zbudować trójkąta";
+	else if (b + c <= a){
+	cout << "nie mozna zbudowac trojkata";
 }
 	else{
-	cout << "można zbuddować trójkąt";
+	cout << "mozna zbudowac trojkat";
 }
-	if (c == sqrt(a*a + b*b)){
-	cout << "  jest to trójkąt prostokątny";
+        if((a>b)&&(a>c)){
+            m = a;
+            a = c;
+        }
+        else if ((b > a) && (b > c)){
+            m = b;
+            b = c;
+        }
+        else {
+            m = c;
+        }
+            if (m == sqrt(a*a + b*b)){
+            cout << "  jest to trojkat prostokatny";
 
 
-}  
-	return 0;
 }
+    return 0;
+}
+
