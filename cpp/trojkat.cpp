@@ -1,9 +1,8 @@
-/*
- * bez nazwy.cxx
- * 
- * Copyright 2019  <>
- * napisz program, który pobiera od użytkownika liczby i sprawdza, czy można zbudować z nich trójkąt. Program powinien wyprowadzićodpowiedzni komunikat
- * 
+,/*
+ * trojkat.cpp
+ * Napisz program, który pobiera od użytkownika 3 liczby, długości boków 
+ *  i sprawdza, czy da się z nich zbudować trójkąt.
+ * Program powinien wyprowadzić odpowiedni komunikat.
  */
 
 
@@ -12,43 +11,36 @@
 
 using namespace std;
 
-int main()
+int main(int argc, char **argv)
 {
-	int a, b, c, m;
-	cout << "Podaj dlugosc  boku : ";
+	float a, b, c;
+	cout << "Podaj długość pierwszego boku: ";
 	cin >> a;
-	cout << "Podaj dlugosc  boku : ";
+	cout << "Podaj długość drugiego boku: ";
 	cin >> b;
-	cout << "Podaj dlugosc  boku : ";
+	cout << "Podaj długość trzeci boku: ";
 	cin >> c;
-	if (a + b <= c) {
-	cout << "nie mozna zbudowac trojkata";
+	if (a + b <= c) { 
+	cout << "Na tych bokach nie możesz zbudować trójkąta";
 }
-	else if (a + c <= b){
-	cout <<"nie mozna zbudowac trojkata";
+	else if (a + c <= b) { 
+	cout << "Na tych bokach nie możesz zbudować trójkąta"; 
 }
-	else if (b + c <= a){
-	cout << "nie mozna zbudowac trojkata";
+	else if (b + c <= a) {
+	cout << "Na tych bokach nie możesz zbudować trójkąta"; 
 }
-	else{
-	cout << "mozna zbudowac trojkat";
+	else {
+	cout << "Na tych bokach możesz zbudować trójkąt" <<endl;
 }
-        if((a>b)&&(a>c)){
-            m = a;
-            a = c;
-        }
-        else if ((b > a) && (b > c)){
-            m = b;
-            b = c;
-        }
-        else {
-            m = c;
-        }
-            if (m == sqrt(a*a + b*b)){
-            cout << "  jest to trojkat prostokatny";
-
-
+	if (c == sqrt(a*a + b*b)) {
+	cout << "Trójkąt jest prostokątny";
 }
-    return 0;
+	if (a == sqrt(b*b + c*c)) {
+	cout << "Trójkąt jest prostokątny";
+}
+	if (b == sqrt(c*c + a*a)) {
+	cout << "Trójkąt jest prostokątny";
+}
+	return 0;
 }
 

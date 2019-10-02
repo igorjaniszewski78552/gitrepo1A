@@ -7,7 +7,7 @@ body {
 }
 
 .tabtytul {
-    /* tabelka z grafikÂ¹ (nagÂ³Ã³wek) */
+    /* tabelka z grafik¹ (nag³ówek) */
     background-color: #80c2ab;
     border-bottom: 2px solid #808080
 }
@@ -17,7 +17,7 @@ body {
 }
 
 .tytulnapis {
-    /* tytuÂ³ strony z cieniem (tylko IE) */
+    /* tytu³ strony z cieniem (tylko IE) */
     padding-left: 10px;
     width: 400px;
     height: 60px;
@@ -63,7 +63,7 @@ a.k {
 
 @media print {
     .tabtytul {
-        /* nagÂ³Ã³wek do druku */
+        /* nag³ówek do druku */
         display: none
     }
 }

@@ -1,7 +1,7 @@
 /*
  * hello.cpp
  * 
- * Copyright 2019  <>
+ * Copyright 2019 kl2ag1 <kl2ag1@ubu16>
  * 
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -28,7 +28,7 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-    cout << "ćśćśćśćść";
+	cout << "Koksownikkoks";
 	return 0;
 }
 

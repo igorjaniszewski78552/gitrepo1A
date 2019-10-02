@@ -1,109 +1,88 @@
 <!DOCTYPE html>
 <html lang="pl">
 
-
 <head>
-<meta charset="utf-8" />
-<title>Listy w HTML</title>
-<meta name="generator" content="Geany 1.32" />
-<style>
-        #menu li {display:inline; 
-        padding-left: 20px;
-        margin-left: 10px;
+    <meta charset="utf-8" />
+    <title>Listy w HTML-u</title>
+    <style>
+        #menu li {
+            display: inline;
+            padding-left: 20px;
+            margin-left: 10px;
+        }
         
-        
-    }
-    .lista-abc { list-style-type: lower-alpha
-        
-    }
- .lista-kwadrat{ 
-     list-style-type: square
-    
-}
-    
-</style>
- 
+        .lista-abc {
+            list-style-type: lower-alpha;
+        }
 
+        .lista-kwadrat {
+            list-style-type: square;
+        }
 
+    </style>
 </head>
 
-<body>`
+<body>
+
+zestawienie.html
+
     <div id="menu">
         <ul>
-                <li><a href="index.html">Start</a></li>
-                <li><a href="Tabele.html">Tabele</a></li>
-                <li><a href="./Dane/zestawienie.html">Zestawienie</a></li>
-                
-                
-                <li><a href="../README.html"> Read me </a> </li>
-                
-                <li>
-                <a href="../../Dokumenty/www/README.md" > README.md </a>
-                
-                
-                
-                </li>
-                
-                
-                
+            <li><a href="index.html">Start</a></li>
+            <li><a href="tabele.html">Tabele</a></li>
+            <li>
+                <a href="./dane/zestawienie.html">
+                    Zestawienie
+                </a>
+            </li>
+            <li>
+                <a href="../../readme.html">
+                    Readme
+                </a>
+            </li>
+            <li>
+                <a href="../../../Dokumenty/www/README.md">
+                    README.md
+                </a>
+            </li>
         </ul>
-    
-    
-    
-    
-    
-    
-    
     </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <h1>Zasady stostowania list</h1>
-    
-    <h2>Zasoby</h2>
-    
-    <ul class="lista kwadrat">
-         <li><a href="../../Dokumenty/www/pyfile.py">Coś</a></li>
-         <li>element listy</li>
-         <li>element listy</li>
-         <li>element listy</li>
-         <li>element listy</li>
-         <li>
-            <ol class="lista-abc">
-                <li>element listy</li>
-                <li>element listy</li>
-                <li>element listy</li>
-                <li>element listy</li>
 
+    <h1>Zasady stosowania list</h1>
+    
+    <h2>Zasaoby</h2>
+    
+    <ul class="lista-kwadrat">
+        <li><a href="../../../Dokumenty/www/01_jeżeli.xls">Arkusz kalkulacyjny</a></li>
+        <li>element listy</li>
+        <li>element listy</li>
+        <li>element listy</li>
+        <li>
+            <ol>
+                <li>element zagnieżdżony</li>
+                <li>element zagnieżdżony</li>
+                <li>element zagnieżdżony</li>
             </ol>
-         </li>
-             
-    
+        </li>
     </ul>
-    
-             <h2>Listy numerowane</h2>
-    <ol>
-            <li>element listy</li>
-            <li>element listy</li>
-            <li>element listy</li>
-            <li>element listy</li>
 
+    <h2>Listay numerowane</h2>
     
-    
+    <ol class="lista-abc">
+        <li>element listy</li>
+        <li>element listy</li>
+        <li>element listy</li>
+        <li>element listy</li>
     </ol>
+
     <h2>Ulubione strony</h2>
     <ol>
-    <li><a href="http://dobreprogramy.pl">dobreprogramy</a></li>
-    <li><a href="http://dobreprogramy.pl" target="_blank">dobreprogramy w nowej karcie</a></li>
-    
+        <li><a href="http://dobreprogramy.pl">dobreprogramy</a></li>
+        <li><a href="http://dobreprogramy.pl" target="_blank">dobreprogramy w nowej karcie</a></li>
     </ol>
-            <p><img src="https://memy.pl/show/big/uploads/Post/208202/15256090353635.jpg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua.<img src="http://magazyn.o.pl/wp-content/i/thm/thumb_mrozek-p-piotrowski-wydawnictwo-literackie-2013-08-30-540x360.jpg?9d7bd4"> Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nullapariatur. Excepteur sint occaecat cupidatat non proident, sunt inculpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua.<img src="https://cdn.shopify.com/s/files/1/0708/4397/products/moyu-guoguan-yuexiao-3x3x3-stickerless_large.jpeg?v=1464796821" Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nullapariatur. Excepteur sint occaecat cupidatat non proident, sunt inculpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nullapariatur. Excepteur sint occaecat cupidatat non proident, sunt inculpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ull</p>
+
+    <p><img src="https://thumbs.img-sprzedajemy.pl/1000x901c/9a/04/9f/nowy-komputer-dell-i5-4x3ghz-8gb-1tb-win8-mysz-krakow-297893142.jpg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nullapariatur. Excepteur sint occaecat cupidatat non proident, sunt inculpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nullapariatur. Excepteur sint occaecat cupidatat non proident, sunt inculpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nullapariatur. Excepteur sint occaecat cupidatat non proident, sunt inculpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ull</p>
+
 </body>
 
 </html>

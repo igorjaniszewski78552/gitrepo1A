@@ -1,24 +1,5 @@
 /*
  * petle2.cpp
- * 
- * Copyright 2019  <>
- * 
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 2 of the License, or
- * (at your option) any later version.
- * 
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
- * MA 02110-1301, USA.
- * 
- * 
  */
 
 
@@ -28,20 +9,72 @@
 using namespace std;
 
 void drukujTabliczke(int x, int y){
-		int i, j;
-		for (i=1; i < x; i++) {
+	int i, j;
+	for(i = 1; i <= x; i++){
+		for(j = 1; j <= y; j++){
+			cout << i*j << " ";
+			}
+	cout << endl;
+	}
+
+}
+
+void prostokat1(int x, int y){
+	int i, j;
+	for(i = 1; i <= x; i++){
+		for(j = 1; j <= y; j++){
+			cout << "#";
+			}
+	cout << endl;
+	}
+}
+
+void prostokat2(int x, int y, char z){
+	int i, j;
+	for (i = 1; i<= x; i++){
+		for(j = 1; j<= y; j++){
+			if (i == 1 || i == x){
+				cout<< z;
+				}
+				else if (j == 1 || j == y){
+					cout<< z;
+					}
+				else{
+					cout << " ";
+					}
+			}
 		cout << endl;
-		for (j =1; j < y; j++){
-			cout <<"#" <<" ";
+	}
+	}
+void choinka(int x){
+	cout << "Podaj wysokość choinki" << endl;
+	cin >> x;
+	int i, j;
+	for(i = 1; i <= x; i++){
+		for(j = 1; j <= i; j++)
+		{
+		cout << "*";
 		}
+	cout << endl;
 	}
 }
 
 
+
 int main(int argc, char **argv)
 {
-	drukujTabliczke(5,10);
-
+	prostokat1(5, 12);
+	cout << endl;
+	int a, b;
+	char znak;
+	cout << "Podaj rozmiar x, y; ";
+	cin >> a >> b;
+	cout << "Podaj znak: ";
+	cin >> znak;
+	prostokat2(a, b, znak);
+	cout << endl;
+	choinka(10);
+	cout << endl;
 	return 0;
 }
 
