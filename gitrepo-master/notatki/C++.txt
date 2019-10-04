@@ -54,7 +54,21 @@ Pętla **for** w c++ składa się z 3 części.
 
 ==== while ====
 int i; //Deklaracja
-int i = 0; //DEKLARACJA I INICJACJA 
+int i = 0; //DEKLARACJA I INICJACJA
+
+
+=====terminal====
+ php -S localhost:8000
+ 
+ 
+ wszystkie dane post przesyłane z formularza są przesyłane jako tekst(nawet liczby czy spacje)
+ jest to wazne, jeżeli chcemy bronić się przed hackerami, aby nie mogli oszukać przeszuakć hasłe, podpiąć skryptów w javascripcie, które mogą zmieniać adres na chociażby stronę z wirusem
+		foreach.php ,manual
+ trim-usuwa spacje z początku i końca
+ 
+ htmlspecjarchars - koduje znaki specjalne
+ 
+192.168.3.10:8000 
 
 
 

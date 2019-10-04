@@ -27,27 +27,43 @@
         </div>
     </nav>
     <div class="container-fluid">
-        <div class="row">
+            <div class="row">
+                <div class="col">
+<?php
 
-            <div class="col">
-                <?php
 echo '<h2>Przetwarzanie formularza</h2>';
 print_r($_POST);
-echo'<p> witaj '.$p_POST['login'].' </p>'
 
-                ?>
+// var_dump(empty($_POST['login']));
+// $login = trim($_POST['login']);
+foreach ($_POST as $k => $v) {
+    echo $k.' '.$v.'<br>';
+    ${$k} = htmlspecialchars(trim($v));
+
+
+}
+
+if (isset($login)){
+    echo '<p>Witaj '.$login.'</p>';
+    echo '<p> Twoje hasło: '. $haslo.'</p>';
+}
+else
+    echo '<p>Zaloguj się!</p>';
+
+
+
+?>
+
                 </div>
-                </div>
-                   <div class="row">
-                             <div class="col-3">&nbsp;</div>
+            </div>
+        <div class="row">
+            <div class="col-3">&nbsp;</div>
             <div class="col">
-
-
                 <h1 class="text-center">
                     Formularz<small>– w Bootstrapie</small>
                 </h1>
                 <hr>
-                <form action="formularz.html" method="GET" name="dane" id="dane">
+                <form action="formularz.php" method="POST" name="dane" id="dane">
                     <input type="hidden" name="id_user" value="10">
                     <div class="form-group">
                         <label for="login">Login:</label>
