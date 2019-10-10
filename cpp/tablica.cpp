@@ -1,5 +1,5 @@
 /*
- * staz.cpp
+ * tablica.cpp
  * 
  * Copyright 2019  <>
  * 
@@ -24,36 +24,23 @@
 
 #include <iostream>
 using namespace std;
-
-    int staz = 1;
-    float zarobek = 1000;
-    int lata = 1;
-
-
-void drukuj() {
-    cout<< "Pracujesz "<< staz<< " lat i zarabiasz "<< zarobek <<endl;
-
-}
-int awans(){
-    staz += 1;
-    zarobek = zarobek * 1.1 ;
-    return staz, zarobek;
-}
-
 int main(int argc, char **argv)
 {
-
-    cout << "Podaj przewidywany okres pracy w latach: "<< endl;
-    cin >> lata;
-
-    for (int i = 1; i < lata; i++)
-    {
-    awans();
-
-    }
-    drukuj();
-
-    return 0;
+	
+	int rozmiar= 5;
+	int tablica[rozmiar];
+	//tablica[0] = 300;
+	//tablica[5] = 123;
+	int i = 0;
+	cout << "podaj 20 liczb: "<< endl;
+	for(i=0; i<rozmiar;i++)
+	{
+		cin >>  tablica[i];
+		
+	} 
+	for (i = 0; i < rozmiar; i++ ){
+		cout << tablica[i]<< " ";
+	}
+	return 0;
 }
-
 
