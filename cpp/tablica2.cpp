@@ -24,20 +24,41 @@
 
 #include <iostream>
 using namespace std;
+
+
+void pobierzOceny(int t[], int r){
+	
+	cout << "podaj 5 ocen:        "<< endl;
+		int i;
+	for(i=0; i<r;i++){
+		cin >>  t[i];
+		
+	} 
+	}
+	
+	
+void DrukujTab(int t[], int r){
+	
+		int i;
+	for(i=0; i<r;i++){
+		cout <<  t[i]<<endl;
+		
+	} 
+	}
+
+
 int main(int argc, char **argv)
 {
-	
-	int rozmiar= 5;
+
+	int rozmiar = 5;
 	int tablica[rozmiar];
 	//tablica[0] = 300;
 	//tablica[5] = 123;
 	int i = 0;
-	cout << "podaj 20 liczb: "<< endl;
-	for(i=0; i<rozmiar;i++)
-	{
-		cin >>  tablica[i];
-		
-	} 
+	cout<< tablica << endl;
+pobierzOceny(tablica, rozmiar);
+DrukujTab(tablica, rozmiar);
+
 	for (i = 0; i < rozmiar; i++ ){
 		cout << tablica[rozmiar - ( i + 1 ) ]<< " ";
 	}
