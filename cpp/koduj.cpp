@@ -1,0 +1,74 @@
+/*
+ * koduj.cpp
+ * 
+ * Copyright 2019  <>
+ * 
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+ * MA 02110-1301, USA.
+ * 
+ * 
+ */
+
+
+#include <iostream>
+using namespace std;
+
+void koduj(char tabzn[],int rozmiar){
+	cout << "Podaj tekst do zakodowania: ";
+	cin >> tabzn;
+	for (int i = 0; i< rozmiar; i++){
+		cout << (int)tabzn[i]<<" ";
+	}
+}
+
+void litery2liczby (char tabzn[], int rozmiar){
+		for(int i =  0; i < rozmiar; i++){
+		cout<< (int)tabzn[i] << endl; 
+	
+}
+}
+
+void dekoduj(int kod[], int rozmiar){
+	cout << "Podaj koda: "<< endl;
+	for(int i = 0; i < rozmiar; i++){
+	cin >> kod[i];
+	
+}
+
+}
+void dekoduj2(int kod[], int rozmiar){
+	cout<< "twój kod to: " << endl; 
+	for (int i= 0; i < rozmiar; i++){
+		cout<< (char)kod[i];
+		
+	}
+}
+
+
+
+
+ 
+int main(int argc, char **argv)
+{
+	int rozmiar = 11;
+	char napis[rozmiar];
+	int kod[rozmiar];
+	koduj(napis, rozmiar);
+	cout << endl;
+	dekoduj(kod, rozmiar);
+	dekoduj2(kod, rozmiar);
+	return 0;
+}
+
