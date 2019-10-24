@@ -1,5 +1,5 @@
 /*
- * koduj.cpp
+ * tabliczka_mnożenia.cpp
  * 
  * Copyright 2019  <>
  * 
@@ -23,52 +23,24 @@
 
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
-
-void koduj(char tabzn[],int rozmiar){
-	cout << "Podaj tekst do zakodowania(max 10 znaków): ";
-	cin >> tabzn;
-	for (int i = 0; i< rozmiar; i++){
-		cout << (int)tabzn[i]<<" ";
-	}
-}
-
-void litery2liczby (char tabzn[], int rozmiar){
-		for(int i =  0; i < rozmiar; i++){
-		cout<< (int)tabzn[i] << endl; 
-	
-}
-}
-
-void dekoduj(int kod[], int rozmiar){
-	cout << "Podaj koda(10 znaków): "<< endl;
-	for(int i = 0; i < rozmiar; i++){
-	cin >> kod[i];
-	
-}
-
-}
-void dekoduj2(int kod[], int rozmiar){
-	cout<< "twój kod to: " << endl; 
-	for (int i= 0; i < rozmiar; i++){
-		cout<< (char)kod[i];
-		
-	}
-}
-
-
-
-
- 
+#define N 3
+#define M 3
 int main(int argc, char **argv)
 {
-	int rozmiar = 11;
-	char napis[rozmiar];
-	int kod[rozmiar];
-	koduj(napis, rozmiar);
+	int tab2W[N][M];
+	int i, j;
+	//srand(time(NULL)); // inicjacja generatora liczb pseudolosowych
+	
+	for(i= 0; i <N; i++){
+		//cout << "=========Tablica "<<  i<< "========" <<endl;
+		for (j = 0; j<M; j++){
+			cout << i << "-"<< j << endl;
+			tab2W[i][j] = i * j;
+			cout<<setw(4) <<tab2W[i][j] << "";
+}
 	cout << endl;
-	dekoduj(kod, rozmiar);
-	dekoduj2(kod, rozmiar);
+}
 	return 0;
 }
-

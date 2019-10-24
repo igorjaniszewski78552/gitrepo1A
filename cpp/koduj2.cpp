@@ -26,7 +26,7 @@
 using namespace std;
 
 void koduj(char tabzn[],int rozmiar){
-	cout << "Podaj tekst do zakodowania(max 10 znaków): ";
+	cout << "Podaj tekst do zakodowania(max "<<rozmiar<< "): ";
 	cin >> tabzn;
 	for (int i = 0; i< rozmiar; i++){
 		cout << (int)tabzn[i]<<" ";
@@ -41,14 +41,11 @@ void litery2liczby (char tabzn[], int rozmiar){
 }
 
 void dekoduj(int kod[], int rozmiar){
-	cout << "Podaj koda(10 znaków): "<< endl;
+	cout << "Podaj kod do odkodowania(max"<<rozmiar<<" znaków, oddzielone enterami): "<< endl;
 	for(int i = 0; i < rozmiar; i++){
 	cin >> kod[i];
 	
 }
-
-}
-void dekoduj2(int kod[], int rozmiar){
 	cout<< "twój kod to: " << endl; 
 	for (int i= 0; i < rozmiar; i++){
 		cout<< (char)kod[i];
@@ -62,13 +59,12 @@ void dekoduj2(int kod[], int rozmiar){
  
 int main(int argc, char **argv)
 {
-	int rozmiar = 11;
+	int rozmiar = 10;
 	char napis[rozmiar];
 	int kod[rozmiar];
 	koduj(napis, rozmiar);
 	cout << endl;
 	dekoduj(kod, rozmiar);
-	dekoduj2(kod, rozmiar);
 	return 0;
 }
 
