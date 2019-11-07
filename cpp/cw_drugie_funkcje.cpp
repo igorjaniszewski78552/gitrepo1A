@@ -1,5 +1,5 @@
 /*
- * tabliczka_mnożenia.cpp
+ * cw_drugie_funkcje.cpp
  * 
  * Copyright 2019  <>
  * 
@@ -23,25 +23,21 @@
 
 
 #include <iostream>
-#include <iomanip>
 using namespace std;
-#define N 11
-#define M 11
+oceny = 0;
+
+
 int main(int argc, char **argv)
 {
-	int tab2W[N][M];
-	int i, j;
-	//srand(time(NULL)); // inicjacja generatora liczb pseudolosowych
 	
-	for(i= 0; i <N; i++){
-		//cout << "=========Tablica "<<  i<< "========" <<endl;
-		cout << i;
-		for (j = 0; j<M; j++){
-			//cout << i << "-"<< j << endl;
-			tab2W[i][j] = i * j;
-			cout<<setw(4) <<tab2W[i][j] << " ";
-}
-	cout << endl;
-}
+	cout << "podaj oceny" << endl;
+	cin >> oceny;
+	if ( len(oceny) ){
+		
+	}
+	
+	
+	
 	return 0;
 }
+

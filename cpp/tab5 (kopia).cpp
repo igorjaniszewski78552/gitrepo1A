@@ -1,5 +1,5 @@
 /*
- * tabliczka_mnożenia.cpp
+ * tab5.cpp
  * 
  * Copyright 2019  <>
  * 
@@ -23,25 +23,28 @@
 
 
 #include <iostream>
-#include <iomanip>
 using namespace std;
-#define N 11
-#define M 11
 int main(int argc, char **argv)
 {
-	int tab2W[N][M];
-	int i, j;
-	//srand(time(NULL)); // inicjacja generatora liczb pseudolosowych
-	
-	for(i= 0; i <N; i++){
-		//cout << "=========Tablica "<<  i<< "========" <<endl;
-		cout << i;
-		for (j = 0; j<M; j++){
-			//cout << i << "-"<< j << endl;
-			tab2W[i][j] = i * j;
-			cout<<setw(4) <<tab2W[i][j] << " ";
-}
-	cout << endl;
-}
+	int b = 0;
+	int tab[20];
+	int n = 20;
+	srand(time(NULL));
+	cout << "podaj liczbę, którą chcesz znaleźć; "<< endl;
+	int a = 0;
+	cin >> a;
+		for(int i = 0; i<21; i++){
+			tab[i]= rand()%n+1;
+			cout << tab [i]<<" ";
+		}
+		
+		for(int j = 0; j<21; j ++)
+		{
+		if(a == tab[j]){
+		 b += 1 ;
+		}
+		}
+		cout << b<<endl;
 	return 0;
 }
+

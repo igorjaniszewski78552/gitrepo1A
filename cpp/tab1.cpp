@@ -1,5 +1,5 @@
 /*
- * tabliczka_mnożenia.cpp
+ * tab1.cpp
  * 
  * Copyright 2019  <>
  * 
@@ -23,25 +23,36 @@
 
 
 #include <iostream>
-#include <iomanip>
 using namespace std;
-#define N 11
-#define M 11
+
+
+
 int main(int argc, char **argv)
 {
-	int tab2W[N][M];
-	int i, j;
-	//srand(time(NULL)); // inicjacja generatora liczb pseudolosowych
-	
-	for(i= 0; i <N; i++){
-		//cout << "=========Tablica "<<  i<< "========" <<endl;
-		cout << i;
-		for (j = 0; j<M; j++){
-			//cout << i << "-"<< j << endl;
-			tab2W[i][j] = i * j;
-			cout<<setw(4) <<tab2W[i][j] << " ";
+	int r = 5;
+	int t[r];
+	cout << "podaj 5 liczb:  "<< endl;
+	for(int i=0; i<r;i++){
+		cin >>  t[i];}
+		float suma = 0;
+for(int i = 0; i<r; i++){
+    suma += t[i];
 }
-	cout << endl;
+	cout << "podaj 5 liczb:  "<< endl;
+	for(int i=0; i<r;i++){
+		cin >>  t[i];}
+		float suma1 = 0;
+for(int i = 0; i<r; i++){
+    suma1 += t[i];
 }
+
+if (suma > suma1){
+cout << "suma liczb w tablicy 1 jest większa";
+}
+else{
+	cout<< "suma liczb w tablicy 2 jest większa";
+} 
+
 	return 0;
 }
+

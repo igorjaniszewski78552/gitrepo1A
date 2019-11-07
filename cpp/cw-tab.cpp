@@ -1,5 +1,5 @@
 /*
- * tabliczka_mnożenia.cpp
+ * cw-tab.cpp
  * 
  * Copyright 2019  <>
  * 
@@ -23,25 +23,18 @@
 
 
 #include <iostream>
-#include <iomanip>
 using namespace std;
-#define N 11
-#define M 11
+#define rozmiar 10
+#include <cstring>
 int main(int argc, char **argv)
 {
-	int tab2W[N][M];
-	int i, j;
-	//srand(time(NULL)); // inicjacja generatora liczb pseudolosowych
+	char tekst[rozmiar];
 	
-	for(i= 0; i <N; i++){
-		//cout << "=========Tablica "<<  i<< "========" <<endl;
-		cout << i;
-		for (j = 0; j<M; j++){
-			//cout << i << "-"<< j << endl;
-			tab2W[i][j] = i * j;
-			cout<<setw(4) <<tab2W[i][j] << " ";
-}
-	cout << endl;
-}
+	cout <<"Podaj wyrazy: "<<endl;
+	cin.getline(tekst, rozmiar);
+	for (int i =strlen(tekst) ; 0 < i; i--){
+			cout <<tekst[i-1];
+	 }      
 	return 0;
 }
+

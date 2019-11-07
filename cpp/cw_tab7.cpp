@@ -1,5 +1,5 @@
 /*
- * tabliczka_mnożenia.cpp
+ * cw_tab7.cpp
  * 
  * Copyright 2019  <>
  * 
@@ -23,25 +23,20 @@
 
 
 #include <iostream>
-#include <iomanip>
 using namespace std;
-#define N 11
-#define M 11
 int main(int argc, char **argv)
 {
-	int tab2W[N][M];
-	int i, j;
-	//srand(time(NULL)); // inicjacja generatora liczb pseudolosowych
+	int znak;
+	int i;
+	int j;
+	cout<< "Podaj znak działania:"<<endl;
+	cin >> znak;
+	cout <<"podaj pierwszą liczbę"<<endl;
+	cin >> i;
+	cout << "podaj drugą liczbę"<<endl;
+	cin >> j;
 	
-	for(i= 0; i <N; i++){
-		//cout << "=========Tablica "<<  i<< "========" <<endl;
-		cout << i;
-		for (j = 0; j<M; j++){
-			//cout << i << "-"<< j << endl;
-			tab2W[i][j] = i * j;
-			cout<<setw(4) <<tab2W[i][j] << " ";
-}
-	cout << endl;
-}
+	 
 	return 0;
 }
+

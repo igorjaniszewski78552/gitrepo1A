@@ -1,5 +1,5 @@
 /*
- * tabliczka_mnożenia.cpp
+ * tekst.cpp
  * 
  * Copyright 2019  <>
  * 
@@ -22,26 +22,33 @@
  */
 
 
+
 #include <iostream>
-#include <iomanip>
+
 using namespace std;
-#define N 11
-#define M 11
+
+#define ROZMIAR 100
+
 int main(int argc, char **argv)
 {
-	int tab2W[N][M];
-	int i, j;
-	//srand(time(NULL)); // inicjacja generatora liczb pseudolosowych
-	
-	for(i= 0; i <N; i++){
-		//cout << "=========Tablica "<<  i<< "========" <<endl;
-		cout << i;
-		for (j = 0; j<M; j++){
-			//cout << i << "-"<< j << endl;
-			tab2W[i][j] = i * j;
-			cout<<setw(4) <<tab2W[i][j] << " ";
+    char tekst[ROZMIAR];
+    int i;
+    int j;
+    int k = 1;
+    cout<<"Podaj zdanie: "<<endl;
+    cin.getline(tekst, ROZMIAR);
+    for (i = 0; i < ROZMIAR ; i++){
+        cout << tekst[i];
+        }
+    for (j=0 ; j < ROZMIAR ; j++){
+    if (tekst[j]==' '&&tekst[j] != '\0'){
+        k++;
+    }
+    }
+    cout << endl;
+    cout<<"Ilosc slow w zdaniu ""'"<<tekst<<"'"" wynosi "<<k - 1<<endl;
+
+
+    return 0;
 }
-	cout << endl;
-}
-	return 0;
-}
+

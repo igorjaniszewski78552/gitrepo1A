@@ -1,5 +1,5 @@
 /*
- * tabliczka_mnożenia.cpp
+ * tab4.ppx
  * 
  * Copyright 2019  <>
  * 
@@ -21,27 +21,31 @@
  * 
  */
 
-
-#include <iostream>
 #include <iomanip>
+#include <iostream>
 using namespace std;
-#define N 11
-#define M 11
+#define N 5
+#define M 7
 int main(int argc, char **argv)
 {
-	int tab2W[N][M];
+		int tab1[N][M];
 	int i, j;
-	//srand(time(NULL)); // inicjacja generatora liczb pseudolosowych
+	float r;
+	cout << "podaj wartość, o którą zwiększać się będą liczby: ";
+	cin >> r;
+	float a;
+	cout << "podaj pierwszy element: ";
+	cin >> a;
 	
-	for(i= 0; i <N; i++){
-		//cout << "=========Tablica "<<  i<< "========" <<endl;
-		cout << i;
-		for (j = 0; j<M; j++){
-			//cout << i << "-"<< j << endl;
-			tab2W[i][j] = i * j;
-			cout<<setw(4) <<tab2W[i][j] << " ";
-}
-	cout << endl;
+	for(i = 0; i<N; i++){
+		for(j = 0; j < M ; j++){
+			tab1[i][j] = a;
+			a += r;
+			cout << tab1[i][j] << " ";
+		}
+			cout << endl;
+	
 }
 	return 0;
 }
+
