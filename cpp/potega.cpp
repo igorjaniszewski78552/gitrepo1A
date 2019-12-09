@@ -1,5 +1,5 @@
 /*
- * euklides.cpp
+ * silnia.cpp
  * 
  * Copyright 2019  <>
  * 
@@ -20,38 +20,46 @@
  * 
  * 
  */
-
 using namespace std;
+
 #include <iostream>
 
-int NWD_re1(int a, int b){
+
+
+
+long int potega_it(int n, float x){
 	
-	if (a != 0)
-		return NWD_re1(a % b, b -a%b);
-		else
-		return b ;
+	float potega = 1;
+	for (int i=0; i < n; i++){
+		potega = potega * x;
+		
+		
+	}
+	return potega;
+	
 }
-
-
-
+float potega_re(int n, float x){
+	if(x == 0){
+	return 1;}
+	else{
+		return potega_re(n-1, n)* x;
+	} 
+	
+	
+	
+}
 
 
 int main(int argc, char **argv)
 {
-	cout << "podaj dwie liczby całkowite"<<endl;
-	int a, b, i;
-	a = b = i = 0;
-	cin >> a >> b;
-	while (a != b){
-		i ++;
-	if (a > b){
-		a = a - b;}
-	else {
-		b = b-a;
- 	}}
-cout <<"największy wspólny dzielnik to;"<< a;
-cout <<"powtórzenia "<< i << endl;
-cout << NWD_re1(a,b);
+	int n;
+	float x;
+	cout<<"podaj podstawe"<<endl;
+	cin >> x;
+	cout << "podaj wykładnik"<<endl;
+	cin >> n;
+	cout<<"potega :"<< potega_it(n, x)<<endl;
+	cout<<"potega :"<< potega_it(n, x)<<endl;
 	return 0;
 }
 

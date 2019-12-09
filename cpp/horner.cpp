@@ -45,6 +45,14 @@ float horner_it(int n, float tbwsp[], float x){
 	
 }
 
+float horner_re(int n, float tbwsp[], float x){
+	if (n == 0)
+	return tbwsp[0];
+	else
+		return horner_re(n-1, tbwsp, x) * x + tbwsp[n];
+	
+}
+
 
 int main(int argc, char **argv)
 {
@@ -66,7 +74,7 @@ int main(int argc, char **argv)
 	drukujw(n , tbwsp);
 	cout << endl;
 	cout << "wynik to: "<< horner_it(n, tbwsp, x)<< endl;
-	
+	cout << "wynik to: "<< horner_re(n, tbwsp, x)<< endl;
 	return 0;
 }
 
