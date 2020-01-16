@@ -2,6 +2,28 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2019-09-11T09:05:56+02:00
 
-====== C++ ======
+====== PHP ======
 Created środa 11 września 2019
+
+kompilowane (c++, kompilator, linker)
+interpretowane(PHP, Python, Java Script)
+
+html to czysty tekst, jeżeli przeglądarka ma przeczytać wstawki php plik musi mieć rozszerzenie .php,
+POST- dane zmieniające bae danych
+po stronie serwera wskrypcie php dane z formularza dostępne są w tablicy POSt
+jeśli chcemy wyszukać w www  jakieś informacje dane przesyłamy za pomocą GET
+walidacja(sprawdzanie poprawności)danyc h z formularza polega na -  używaniu 		odpowiednich atrybutów html 5 w formularzach,  sprawdzaniu po stronie serwerea czy dane są poprawne
+sprawdzanie poprawności loginu i hasła to przykład walidacji i autentykacji
+autoryzacja to przyznawanie uprawnień
+a autentykacja to sprawdzenie czy oboa jest tym za kogo się podaje
+do sprawdzenia czy zmienna istnieje i nie jest wartością null uzywamy - isset
+czy nie istnieje lub jest rowan false  - empty()
+zmienne w php są tworzone w momencie pierwszego przypisania
+do tworzenia zmiennych $($zmienna) = 'warosc' 
+aby znalazla sie w ciagu znakuwym zapis "zmienna; $zmienna"
+"zmienna:{$tab['zmienna']}"
+jezeli w formularzu html typu post mamy pole o nazwie kod przesłaną wartość odczytamy $_POST[kod]
+foreach umozliwia przegladanie elementów tablicy
+dostęp do pierwszego elementu
+
 
