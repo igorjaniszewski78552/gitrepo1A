@@ -1,0 +1,53 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-01-17T10:13:06+01:00
+
+====== javascript ======
+Created piątek 17 stycznia 2020
+
+document.write("<h1>"+c+"<h1>");-żeby dynamicznie coś napisać
+prompt służy do powbierania od użytkownika
+
+
+__PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPROGRAMY__
+<script>
+// Edit your script here
+var a = 5;
+var b =10;
+var c = a + b;
+console.log(c);
+document.write('<p id="js"></p>');
+window.alert(c);
+document.getElementById("js").innerHTML = c;
+</script>
+<!-- edit your html here -->
+__konieccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc__
+<script>
+// Edit your script here
+var a = parseInt(prompt('Podaj bok: '));
+var b = parseInt(prompt('Podaj bok: '));
+var c = parseInt(prompt('Podaj bok: '));
+document.write(a + b + c);
+if (a+b>c && a+c>b && a+b>c){
+window.alert('da się ');}
+else{
+window.alert('nie da się');}
+
+</script>
+<!-- edit your html here -->
+ __koduuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu__
+
+<script>
+// Edit your script here
+var dlugosc = 10; //liczba
+var imie = "Dorota"; // string
+var tablica = ["Fiat". "Skoda", "Merc"];
+document.write(tablica[1]);
+var osoba= {
+	imie:"Adam",
+	nazwisko:"Słodowy",
+	wiek: 25
+	};
+	document.write(osoba.imie, osoba.wiek);
+</script>
+<!-- edit your html here -->
