@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-02-13T11:03:02+01:00
+
+====== kompresja ======
+Created czwartek 13 lutego 2020
+UTF-8 = 2bajty do zapisu kodu znaku
+
+
+
+rodzaje kompresji:
+1) kompresja bezstratna: 7zip, zip, xz, rar
+Umożliwa odzyskanie informacji nienaruszonych.
+b/s - jednostka przepustowości
+1 bit * 8 =1 B(ajt)
+1024B=1kB
+1024kB = 1MB
+1024MB  = 1GB
+1024GB =  1TB  
+
+
+Współczynnik kompresji:
+Rc = Vk/Vnk*100% Vk dane skompresowane, Vnk dane przed 
+Vnk = 784 kB
+Vk = 110,2kB
+Rc = (1-Vk/Vnk) *100%

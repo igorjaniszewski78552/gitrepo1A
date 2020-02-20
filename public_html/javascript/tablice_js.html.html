@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+   tablice_js.html.html 
+-->
+
+<head>
+<meta charset="utf-8" />
+<title>Użycie tablic w JavaScripcie</title>
+<meta name="generator" content="Geany 1.32" />
+</head>
+
+<body>
+<script type ="text/javascript">
+	var cars = ["Saab", "Fiat", "Opel"];
+//alert(cars[0]);
+alert(cars.length)
+</script>
+<p id="samochod"></p>
+<hr>
+<input type="text" id ="indeks">
+<button onclick="drukuj()" >Wpisz</button>
+<script>
+function drukuj(){
+	var n = document.getElementById("indeks").value;
+	if (n > cars.length - 1 && n < -1){
+		alert("za duży numer");
+	} 
+	else {
+		alert(cars[n]);
+	}
+}
+
+
+</script>
+</body>
+
+</html>

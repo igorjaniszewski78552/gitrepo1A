@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+   wyspółczynnik kompresji.html
+-->
+
+<head>
+<meta charset="utf-8" />
+<title>bez nazwy</title>
+<meta name="generator" content="Geany 1.32" />
+</head>
+
+<body>
+	<p>Podaj rozmiar przed kompresją</p>
+	<input id="Vnk">
+	<p>Podaj rozmiar po kompresji</p>
+	<input id="Vk">
+	<br><br>
+	<button onclick="ile()" >Oblicz wsłþółczynnik kompresji</button>
+	<p id="k"></p>
+<script>
+	function ile(){
+var a = document.getElementById("Vnk").value;
+var b = document.getElementById("Vk").value;
+	if (a.value < b.value){
+	var c = (b/a) * 100;
+	document.getElementById("k").innerHTML="Współczynnik to: " c + "%";  
+}
+else{alert("Złe dane");}
+}
+
+
+</script>
+</body>
+
+</html>
